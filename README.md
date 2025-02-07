@@ -20,7 +20,7 @@ sh
 Copy
 Edit
                   
-                  docker-compose up --build -d
+     docker-compose up --build -d
 
 
 🔥 API Endpoints
