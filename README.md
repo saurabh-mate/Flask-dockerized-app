@@ -50,7 +50,9 @@ http://localhost:5000/multiply?num1=4&num2=2
 💡 Future Enhancements
 
 ✅ Add more operations (subtraction, division)
+
 ✅ Implement authentication
+
 ✅ Deploy to AWS (Amazon Web Services)
 
 
