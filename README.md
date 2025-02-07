@@ -27,7 +27,9 @@ docker-compose up --build -d
 Endpoint	Description
 
 /hello	Returns "Hello, World!"
+
 /add?num1=5&num2=3	Returns 5 + 3 = 8
+
 /multiply?num1=4&num2=2	Returns 4 * 2 = 8
 
 
@@ -39,7 +41,9 @@ Copy
 Edit
 
 http://localhost:5000/hello
+
 http://localhost:5000/add?num1=5&num2=3
+
 http://localhost:5000/multiply?num1=4&num2=2
 
 
