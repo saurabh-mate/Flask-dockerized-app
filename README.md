@@ -1,6 +1,7 @@
 🚀 Flask Docker App
 
 📌 Description
+
 A Flask-based web app running in Docker & Docker Compose, providing API endpoints for addition and multiplication.
 
 
@@ -12,8 +13,8 @@ sh
 Copy
 Edit
 
-    git clone https://github.com/saurabh-mate/flask-docker-app.git
-    cd flask-docker-app
+git clone https://github.com/saurabh-mate/flask-docker-app.git
+cd flask-docker-app
 
 2️⃣ Build & Run
 sh
@@ -41,20 +42,20 @@ bash
 Copy
 Edit
 
-    http://localhost:5000/hello
+http://localhost:5000/hello
     
-    http://localhost:5000/add?num1=5&num2=3
+http://localhost:5000/add?num1=5&num2=3
     
-    http://localhost:5000/multiply?num1=4&num2=2
+http://localhost:5000/multiply?num1=4&num2=2
 
 
 💡 Future Enhancements
 
-✅ Add more operations (subtraction, division)
+[] Add more operations (subtraction, division)
 
-✅ Implement authentication
+[] Implement authentication
 
-✅ Deploy to AWS (Amazon Web Services)
+[] Deploy to AWS (Amazon Web Services)
 
 
 

@@ -4,8 +4,11 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - /app
+      - ./Src:/app  # Mounts your local 'Src' directory to '/app' in the container
+    working_dir: /app  # Ensures the container starts in the right directory
     environment:
       - FLASK_ENV=development
       - FLASK_APP=main.py
     restart: always
+    command: ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:5000", "main:app"]
+ # Runs Flask app
