@@ -13,8 +13,8 @@ sh
 Copy
 Edit
 
-git clone https://github.com/saurabh-mate/flask-docker-app.git
-cd flask-docker-app
+     git clone https://github.com/saurabh-mate/flask-docker-app.git
+     cd flask-docker-app
 
 2️⃣ Build & Run
 sh
